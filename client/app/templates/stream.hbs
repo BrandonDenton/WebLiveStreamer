@@ -3,5 +3,6 @@
     <script>
 {{else}}
     <p>Oops, you forgot to log in! Please do so before streaming.</p>
+    {{#link-to "login"}}Sign In{{/link-to}}
 {{/if}}
 {{outlet}}
